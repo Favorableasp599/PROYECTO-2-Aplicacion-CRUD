@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>CRUD Ucamp</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header >
+        <div class="logo">
+            <img src="ucamp.jpg" alt="Ucamp " class="logo-img">
+               <h2 class="logo-nombre"> Proyecto No.2 Desarrollo de software CRUD</h2>    
+        </div>
+       </header>
+       <main>
+    <fieldset id="Form">
+    <legend>
+        <h1>Formulario</h1>
+    </legend>
+    <form id="form">
+        <input type="text" id="name" name="name" placeholder="Nombre"><br><br>
+        <input type="text" id="job" name="job" placeholder="Trabajo" ><br><br>
+        <input type="text" id="exp" name="Experience" placeholder="Rol" ><br><br>
+        <input type="submit" value="Agregar" id="btn" >
+        <input type="reset" value="Resetear">
+    </form>
+
+   </fieldset>
+
+       </main>
+        <br>
+   <div id="msg"></div>
+   <br>
+   <div>
+    <fieldset id="Storage">
+    <legend>
+        <h2>Informacion almacenada </h2>
+    </legend>
+    <table border="2">
+        <tr>
+        <td class="col">Nombre</td>
+        <td class="col">Trabajo</td>
+        <td class="col">Rol</td>
+        <td class="col">Botones</td>
+        </tr>
+     </table> 
+    <table border="2" id="table">
+        <tr>
+        <td class="col">Nombre</td>
+        <td class="col">Trabajo</td>
+        <td class="col">Rol</td>
+        <td class="col">Botones</td>
+        </tr>
+     </table>   
+   </fieldset>
+   </div>
+<br>
+<br>
+   <section id="footer">
+    <div class="titulos">
+        <h1>CRUD</h1>
+    </div>
+    <div class="footer-row">
+    <div class="footer-left">
+        <h2> Horarios</h2>
+        <p><i class="fa-solid fa-clock"></i>Lunes a Viernes de 9am a 9pm </p>
+        <p><i class="fa-solid fa-clock"></i> Sabados a Domingos de 8am a 11pm</p>
+    </div> 
+    <div class="footer-right">
+        <h2>Ubicacion</h2>
+        <p>#30 abc Colony, xyz City IN<i class="fa-solid fa-location-dot"></i></p>
+        <p>examp le@website.com <i class="fa-solid fa-paper-plane"></i></p>
+        <p>+01 123456789<i class="fa-solid fa-phone"></i></p>
+    </div>
+    </div>
+<div class="social-links">
+    <h2>Redes Sociales</h2>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <p>Pagina de prueba del proyecto CRUD</p>
+</div>
+</section>
+
+   <script src="index.js"></script> 
+</body> 
+</html>
