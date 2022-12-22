@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  header {
+    display: flex;
+    min-height: 70px;
+    background-color: coral;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+  }
+  .logo img{
+    height: 50px;
+    margin-right: 30px;
+  }
+  @media  (max-width:700px){
+    header {
+      flex-direction: column;
+    }
+  
+  }
+  #Form{
+    border: 6px solid rgb(255,232,57);
+    width: 400px;
+    margin:0 auto;
+    padding: 20px;
+    font-size: 25px;
+  }
+  input{
+    border:1px solid rgb(0, 0, 0); ;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+  }
+  @media screen and (max-width:700px){
+    h1{
+        font-size: 44px;
+    }
+    #form {
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+  #Storage{
+    border: 6px solid rgb(255,232,57);
+    width: 400px;
+    margin:0 auto;
+    padding: 20px;
+    font-size: 20px;
+  }
+  td{
+    padding: 8px 16px;
+  }
+  tr{
+    text-align: center;
+  }
+  #msg{
+    margin:0 auto;
+    width: 400px;
+    font-size: 25px;
+    text-align: center;
+}
+
+  table{
+    border: 6px solid rgb(0, 0, 0);
+    width: auto;
+    margin:auto;
+ }
+.col{
+  flex-basis: 100%;
+  font-size: 20px;
+  font-weight: bold;
+ }
+
+ @media screen and (max-width:700px){
+  #Storage {
+      display: block;
+      margin: 20px auto;
+  }
+}
+ .titulos h1 {
+  font-size: 40px;
+}
+ h1 {
+  text-align: center;
+  font-size: 40px;
+}
+#footer{
+    padding: 100px 0 20px;
+    background:#efefef;
+    position: relative;
+}
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left, .footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.footer-right{
+    text-align: right;
+}
+.footer-row h1{
+    margin: 10px 0;
+}
+.footer-row p{
+    line-height: 35px;
+}
+.footer-left .fa-solid, .footer-right .fa-solid{
+ font-size:20px; 
+ color: blue;
+ margin: 10px;
+}
+.social-links{
+    text-align: center;
+}
+.social-links .fa-brands{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #33FF48;
+    margin: 40px 5px 0;
+    color: #27c0ff;
+    cursor: pointer;
+    transition: .5s;
+}
+.social-links .fa-brands:hover{
+    background: #009688;
+    color: #fff;
+    transform:translateY(-7px);
+}
+.social-links p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+@media screen and (max-width:700px){
+    .footer-left, .footer-right{
+        flex-basis: 100%;
+       font-size: 14px;
+    }
+    
+}
