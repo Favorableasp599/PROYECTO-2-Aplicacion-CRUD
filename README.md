@@ -33,5 +33,5 @@ En este pooyecto cree una sola pagina con una aplicacion donde se crean los elem
 Tambien modifique la pagina para que fuera responsivo y le agregue tanto una seccion header como una footer
 ****
 ## 3. URL
-Despliegue URL En esta parte se Agrega el url de la pagina hecho atrabes de Netlify https://frolicking-salamander-736fae.netlify.app
+Despliegue URL En esta parte se Agrega el url de la pagina hecho atrabes de Netlify https://dynamic-centaur-180699.netlify.app
 ****
